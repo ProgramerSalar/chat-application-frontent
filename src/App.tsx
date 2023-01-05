@@ -7,6 +7,7 @@ import { LoginPage } from './pages/LoginPage';
 import { RegisterPage } from './pages/RegisterPage';
 import { getAuthUser } from './utils/api';
 import { User } from './utils/types';
+import { AuthContext } from './utils/context/AuthContext';
 
 function App() {
   return (
