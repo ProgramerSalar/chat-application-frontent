@@ -3,6 +3,8 @@ import { ConversationPanel } from '../components/conversations/ConversationPanel
 import { ConversationSidebar } from '../components/conversations/ConversationSidebar';
 import { Page } from '../utils/styles';
 import mockConversations from '../__mocks__/conversations';
+import { useEffect } from 'react';
+import { getAuthUser } from '../utils/api';
 
 export const ConversationPage = () => {
    
