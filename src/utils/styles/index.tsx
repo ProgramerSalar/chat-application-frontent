@@ -64,7 +64,12 @@ export const ConversationSidebarStyle = styled.aside`
   overflow-y: scroll;
   &::-webkit-scrollbar {
     display: none;
+    /* width: 10px;
+    height: 5px; */
   }
+  /* &::-webkit-scrollbar-thumb {
+    background-color: #2d2d2d;
+  } */
 `;
 
 export const ConversationSidebarHeader = styled.header`
@@ -84,14 +89,11 @@ export const ConversationSidebarHeader = styled.header`
     font-weight: 400;
   }
 `;
-
 export const ConversationChannelPageStyle = styled.div`
   height: 100%;
   margin-left: ${SIDEBAR_WIDTH}px;
 `;
-
 export const ConversationSidebarContainer = styled.div``;
-
 export const ConversationSidebarItem = styled.div`
   display: flex;
   align-items: center;
