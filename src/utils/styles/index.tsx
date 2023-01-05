@@ -1,4 +1,5 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
+
 export const InputField = styled.input`
   font-family: 'Inter';
   outline: none;
@@ -44,7 +45,6 @@ export const Button = styled.button`
     background-color: #3a1cff;
   }
 `;
-
 export const Page = styled.div`
   background-color: #1a1a1a;
   height: 100%;
