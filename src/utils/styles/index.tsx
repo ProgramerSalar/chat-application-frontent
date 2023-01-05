@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-
 export const InputField = styled.input`
   font-family: 'Inter';
   outline: none;
@@ -12,7 +11,6 @@ export const InputField = styled.input`
   padding: 0;
   margin: 4px 0;
 `;
-
 export const InputContainer = styled.div`
   background-color: #131313;
   padding: 12px 16px;
@@ -20,14 +18,12 @@ export const InputContainer = styled.div`
   width: 100%;
   box-sizing: border-box;
 `;
-
 export const InputLabel = styled.label`
   display: block;
   color: #8f8f8f;
   font-size: 14px;
   margin: 4px 0;
 `;
-
 export const Button = styled.button`
   width: 100%;
   outline: none;
@@ -38,6 +34,15 @@ export const Button = styled.button`
   color: #fff;
   border-radius: 10px;
   padding: 25px 0;
+  font-weight: 500;
+  transition: 250ms background-color ease;
+  &:hover {
+    cursor: pointer;
+    background-color: #3415ff;
+  }
+  &:active {
+    background-color: #3a1cff;
+  }
 `;
 
 export const Page = styled.div`
